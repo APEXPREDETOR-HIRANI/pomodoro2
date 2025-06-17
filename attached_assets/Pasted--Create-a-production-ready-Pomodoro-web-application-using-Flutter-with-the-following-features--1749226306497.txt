@@ -1,0 +1,59 @@
+**Create a production-ready Pomodoro web application using Flutter with the following features:**
+
+**Core Functionality:**
+1. Intelligent timer system with:
+   - Standard intervals (25m work/5m break/15m long break) [5]
+   - Customizable presets (15-60m work, 1-30m breaks)
+   - Auto-progression between sessions
+   - Overtime handling with visual indicators
+
+2. Task management system:
+   - Project-based organization (Work/Personal/Learning)
+   - Dynamic pomodoro estimation (AI-adjusted based on history)
+   - Eisenhower Matrix prioritization [3]
+   - Drag-and-drop scheduling interface
+
+**Technical Specifications:**
+- Built with Flutter 3.13+ for web deployment
+- State management using BLoC pattern
+- Local storage with Hive (2.2.3)
+- Charts using syncfusion_flutter_charts (22.1.40)
+- Notifications with flutter_local_notifications (16.1.2)
+
+**UI/UX Requirements:**
+- Responsive design (mobile/desktop/tablet)
+- Material 3 design system with dynamic theming
+- Accessibility features:
+  - Screen reader support
+  - High contrast mode
+  - Reduced motion options
+- Animated transitions between states
+
+**Advanced Features:**
+- Productivity analytics dashboard showing:
+  - Daily/weekly focus trends [8]
+  - Task completion rates
+  - Interruption frequency
+- System integrations:
+  - Calendar sync (Google/Microsoft)
+  - Website blocker (work session focus)
+  - Cloud sync via Supabase [3]
+
+**Deployment Configuration:**
+- Netlify deployment pipeline [3]
+- CI/CD with automated testing
+- PWA capabilities for offline use
+
+**Code Quality Requirements:**
+- Null safety enabled
+- 100% test coverage
+- Linter rules:
+  - pedantic_mono
+  - flutter_lints
+- Documentation:
+  - In-code comments
+  - Generated API docs
+  - User-facing tutorial
+
+**Project Prompt:**
+"Generate a Flutter web app implementing these specifications using clean architecture patterns. Prioritize maintainability and extensibility. Use BLoC for state management and Hive for local storage. Include full test coverage and documentation."
